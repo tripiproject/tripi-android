@@ -1,12 +1,12 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.ui.fragment.start_page_fragment.StartPageInteractor;
-import org.qtum.wallet.ui.fragment.start_page_fragment.StartPagePresenterImpl;
-import org.qtum.wallet.ui.fragment.start_page_fragment.StartPageView;
+import com.tripi.wallet.ui.fragment.start_page_fragment.StartPageInteractor;
+import com.tripi.wallet.ui.fragment.start_page_fragment.StartPagePresenterImpl;
+import com.tripi.wallet.ui.fragment.start_page_fragment.StartPageView;
 
 import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.times;

@@ -1,25 +1,19 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.model.gson.history.History;
-import org.qtum.wallet.model.gson.history.Vin;
-import org.qtum.wallet.model.gson.history.Vout;
-import org.qtum.wallet.ui.fragment.transaction_fragment.TransactionInteractor;
-import org.qtum.wallet.ui.fragment.transaction_fragment.TransactionPresenterImpl;
-import org.qtum.wallet.ui.fragment.transaction_fragment.TransactionView;
-
-import java.math.BigDecimal;
-import java.util.Arrays;
-import java.util.List;
+import com.tripi.wallet.model.gson.history.History;
+import com.tripi.wallet.model.gson.history.Vin;
+import com.tripi.wallet.model.gson.history.Vout;
+import com.tripi.wallet.ui.fragment.transaction_fragment.TransactionInteractor;
+import com.tripi.wallet.ui.fragment.transaction_fragment.TransactionPresenterImpl;
+import com.tripi.wallet.ui.fragment.transaction_fragment.TransactionView;
 
 import io.realm.RealmList;
 
 import static org.mockito.Matchers.anyBoolean;
-import static org.mockito.Matchers.anyInt;
-import static org.mockito.Matchers.anyList;
 import static org.mockito.Matchers.anyLong;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.never;

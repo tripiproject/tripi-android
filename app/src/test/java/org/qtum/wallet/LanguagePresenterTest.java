@@ -1,4 +1,4 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 
 import android.util.Pair;
@@ -7,10 +7,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.datastorage.listeners.LanguageChangeListener;
-import org.qtum.wallet.ui.fragment.language_fragment.LanguageInteractor;
-import org.qtum.wallet.ui.fragment.language_fragment.LanguagePresenterImpl;
-import org.qtum.wallet.ui.fragment.language_fragment.LanguageView;
+import com.tripi.wallet.datastorage.listeners.LanguageChangeListener;
+import com.tripi.wallet.ui.fragment.language_fragment.LanguageInteractor;
+import com.tripi.wallet.ui.fragment.language_fragment.LanguagePresenterImpl;
+import com.tripi.wallet.ui.fragment.language_fragment.LanguageView;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,21 +1,21 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.model.contract.Contract;
-import org.qtum.wallet.model.contract.ContractMethod;
-import org.qtum.wallet.model.contract.ContractMethodParameter;
-import org.qtum.wallet.model.gson.UnspentOutput;
-import org.qtum.wallet.model.gson.call_smart_contract_response.CallSmartContractResponse;
-import org.qtum.wallet.model.gson.call_smart_contract_response.Item;
-import org.qtum.wallet.ui.base.base_fragment.BaseFragment;
-import org.qtum.wallet.ui.fragment.contract_function_fragment.contract_default_function_fragment.ContractFunctionDefaultInteractor;
-import org.qtum.wallet.ui.fragment.contract_function_fragment.contract_default_function_fragment.ContractFunctionDefaultInteractorImpl;
-import org.qtum.wallet.ui.fragment.contract_function_fragment.contract_default_function_fragment.ContractFunctionDefaultPresenterImpl;
-import org.qtum.wallet.ui.fragment.contract_function_fragment.contract_default_function_fragment.ContractFunctionDefaultView;
+import com.tripi.wallet.model.contract.Contract;
+import com.tripi.wallet.model.contract.ContractMethod;
+import com.tripi.wallet.model.contract.ContractMethodParameter;
+import com.tripi.wallet.model.gson.UnspentOutput;
+import com.tripi.wallet.model.gson.call_smart_contract_response.CallSmartContractResponse;
+import com.tripi.wallet.model.gson.call_smart_contract_response.Item;
+import com.tripi.wallet.ui.base.base_fragment.BaseFragment;
+import com.tripi.wallet.ui.fragment.contract_function_fragment.contract_default_function_fragment.ContractFunctionDefaultInteractor;
+import com.tripi.wallet.ui.fragment.contract_function_fragment.contract_default_function_fragment.ContractFunctionDefaultInteractorImpl;
+import com.tripi.wallet.ui.fragment.contract_function_fragment.contract_default_function_fragment.ContractFunctionDefaultPresenterImpl;
+import com.tripi.wallet.ui.fragment.contract_function_fragment.contract_default_function_fragment.ContractFunctionDefaultView;
 
 import java.math.BigDecimal;
 import java.util.Arrays;

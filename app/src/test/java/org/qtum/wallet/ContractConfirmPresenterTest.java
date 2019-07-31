@@ -1,4 +1,4 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 
 import org.junit.After;
@@ -6,15 +6,15 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.model.TransactionHashWithSender;
-import org.qtum.wallet.model.contract.ContractMethodParameter;
-import org.qtum.wallet.model.gson.SendRawTransactionRequest;
-import org.qtum.wallet.model.gson.SendRawTransactionResponse;
-import org.qtum.wallet.model.gson.UnspentOutput;
-import org.qtum.wallet.ui.base.base_fragment.BaseFragment;
-import org.qtum.wallet.ui.fragment.contract_confirm_fragment.ContractConfirmInteractor;
-import org.qtum.wallet.ui.fragment.contract_confirm_fragment.ContractConfirmPresenterImpl;
-import org.qtum.wallet.ui.fragment.contract_confirm_fragment.ContractConfirmView;
+import com.tripi.wallet.model.TransactionHashWithSender;
+import com.tripi.wallet.model.contract.ContractMethodParameter;
+import com.tripi.wallet.model.gson.SendRawTransactionRequest;
+import com.tripi.wallet.model.gson.SendRawTransactionResponse;
+import com.tripi.wallet.model.gson.UnspentOutput;
+import com.tripi.wallet.ui.base.base_fragment.BaseFragment;
+import com.tripi.wallet.ui.fragment.contract_confirm_fragment.ContractConfirmInteractor;
+import com.tripi.wallet.ui.fragment.contract_confirm_fragment.ContractConfirmPresenterImpl;
+import com.tripi.wallet.ui.fragment.contract_confirm_fragment.ContractConfirmView;
 
 import java.math.BigDecimal;
 import java.util.Arrays;

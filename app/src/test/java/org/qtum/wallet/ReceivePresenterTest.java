@@ -1,12 +1,12 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.ui.fragment.receive_fragment.ReceiveInteractor;
-import org.qtum.wallet.ui.fragment.receive_fragment.ReceivePresenterImpl;
-import org.qtum.wallet.ui.fragment.receive_fragment.ReceiveView;
+import com.tripi.wallet.ui.fragment.receive_fragment.ReceiveInteractor;
+import com.tripi.wallet.ui.fragment.receive_fragment.ReceivePresenterImpl;
+import com.tripi.wallet.ui.fragment.receive_fragment.ReceiveView;
 
 import java.math.BigDecimal;
 

@@ -1,15 +1,15 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.model.AddressWithBalance;
-import org.qtum.wallet.model.gson.UnspentOutput;
-import org.qtum.wallet.ui.fragment.qtum_cash_management_fragment.AddressListInteractor;
-import org.qtum.wallet.ui.fragment.qtum_cash_management_fragment.AddressListPresenterImpl;
-import org.qtum.wallet.ui.fragment.qtum_cash_management_fragment.AddressListView;
+import com.tripi.wallet.model.AddressWithBalance;
+import com.tripi.wallet.model.gson.UnspentOutput;
+import com.tripi.wallet.ui.fragment.tripi_cash_management_fragment.AddressListInteractor;
+import com.tripi.wallet.ui.fragment.tripi_cash_management_fragment.AddressListPresenterImpl;
+import com.tripi.wallet.ui.fragment.tripi_cash_management_fragment.AddressListView;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

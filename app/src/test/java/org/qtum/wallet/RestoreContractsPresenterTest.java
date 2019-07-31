@@ -1,17 +1,17 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.model.backup.Backup;
-import org.qtum.wallet.model.backup.ContractJSON;
-import org.qtum.wallet.model.backup.TemplateJSON;
-import org.qtum.wallet.ui.base.base_fragment.BaseFragment;
-import org.qtum.wallet.ui.fragment.restore_contracts_fragment.RestoreContractsInteractor;
-import org.qtum.wallet.ui.fragment.restore_contracts_fragment.RestoreContractsPresenterImpl;
-import org.qtum.wallet.ui.fragment.restore_contracts_fragment.RestoreContractsView;
+import com.tripi.wallet.model.backup.Backup;
+import com.tripi.wallet.model.backup.ContractJSON;
+import com.tripi.wallet.model.backup.TemplateJSON;
+import com.tripi.wallet.ui.base.base_fragment.BaseFragment;
+import com.tripi.wallet.ui.fragment.restore_contracts_fragment.RestoreContractsInteractor;
+import com.tripi.wallet.ui.fragment.restore_contracts_fragment.RestoreContractsPresenterImpl;
+import com.tripi.wallet.ui.fragment.restore_contracts_fragment.RestoreContractsView;
 
 import java.io.File;
 import java.util.Arrays;

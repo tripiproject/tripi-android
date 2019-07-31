@@ -1,17 +1,13 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.datastorage.listeners.LanguageChangeListener;
-import org.qtum.wallet.model.gson.history.History;
-import org.qtum.wallet.ui.fragment.profile_fragment.ProfileInteractor;
-import org.qtum.wallet.ui.fragment.profile_fragment.ProfilePresenterImpl;
-import org.qtum.wallet.ui.fragment.profile_fragment.ProfileView;
-
-import io.realm.Realm;
-import io.realm.RealmResults;
+import com.tripi.wallet.datastorage.listeners.LanguageChangeListener;
+import com.tripi.wallet.ui.fragment.profile_fragment.ProfileInteractor;
+import com.tripi.wallet.ui.fragment.profile_fragment.ProfilePresenterImpl;
+import com.tripi.wallet.ui.fragment.profile_fragment.ProfileView;
 
 import static org.assertj.core.api.Java6Assertions.assertThat;
 import static org.mockito.Matchers.any;

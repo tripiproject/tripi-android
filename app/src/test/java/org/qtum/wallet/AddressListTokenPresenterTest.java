@@ -1,16 +1,16 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.model.DeterministicKeyWithTokenBalance;
-import org.qtum.wallet.model.contract.Token;
-import org.qtum.wallet.model.gson.token_balance.TokenBalance;
-import org.qtum.wallet.ui.base.base_fragment.BaseFragment;
-import org.qtum.wallet.ui.fragment.token_cash_management_fragment.AddressesListTokenInteractor;
-import org.qtum.wallet.ui.fragment.token_cash_management_fragment.AddressesListTokenPresenterImpl;
-import org.qtum.wallet.ui.fragment.token_cash_management_fragment.AddressesListTokenView;
+import com.tripi.wallet.model.DeterministicKeyWithTokenBalance;
+import com.tripi.wallet.model.contract.Token;
+import com.tripi.wallet.model.gson.token_balance.TokenBalance;
+import com.tripi.wallet.ui.base.base_fragment.BaseFragment;
+import com.tripi.wallet.ui.fragment.token_cash_management_fragment.AddressesListTokenInteractor;
+import com.tripi.wallet.ui.fragment.token_cash_management_fragment.AddressesListTokenPresenterImpl;
+import com.tripi.wallet.ui.fragment.token_cash_management_fragment.AddressesListTokenView;
 
 import java.util.Collections;
 

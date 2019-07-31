@@ -24,7 +24,7 @@
             app:contentInsetStart="0dp"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/title_color_light"
+            android:background="@color/accent_red_color"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
             <ImageButton
@@ -39,7 +39,7 @@
                 android:paddingTop="10dp"
                 app:srcCompat="@drawable/ic_back_indicator"/>
 
-            <org.qtum.wallet.utils.FontTextView
+            <com.tripi.wallet.utils.FontTextView
                 android:id="@+id/tv_toolbar_send"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

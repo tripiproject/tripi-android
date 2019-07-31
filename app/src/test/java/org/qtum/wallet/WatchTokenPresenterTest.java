@@ -1,4 +1,4 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 
 import org.junit.After;
@@ -6,12 +6,12 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.model.contract.Contract;
-import org.qtum.wallet.model.gson.ContractParams;
-import org.qtum.wallet.ui.base.base_fragment.BaseFragment;
-import org.qtum.wallet.ui.fragment.watch_token_fragment.WatchTokenInteractor;
-import org.qtum.wallet.ui.fragment.watch_token_fragment.WatchTokenPresenterImpl;
-import org.qtum.wallet.ui.fragment.watch_token_fragment.WatchTokenView;
+import com.tripi.wallet.model.contract.Contract;
+import com.tripi.wallet.model.gson.ContractParams;
+import com.tripi.wallet.ui.base.base_fragment.BaseFragment;
+import com.tripi.wallet.ui.fragment.watch_token_fragment.WatchTokenInteractor;
+import com.tripi.wallet.ui.fragment.watch_token_fragment.WatchTokenPresenterImpl;
+import com.tripi.wallet.ui.fragment.watch_token_fragment.WatchTokenView;
 
 import java.util.Arrays;
 import java.util.List;
@@ -28,7 +28,6 @@ import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyInt;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Matchers.eq;
-import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;

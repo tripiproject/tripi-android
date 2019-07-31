@@ -1,4 +1,4 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.After;
 import org.junit.Before;
@@ -6,19 +6,19 @@ import org.junit.Test;
 import org.mockito.Matchers;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.model.Currency;
-import org.qtum.wallet.model.CurrencyToken;
-import org.qtum.wallet.model.contract.Token;
-import org.qtum.wallet.model.gson.FeePerKb;
-import org.qtum.wallet.model.gson.call_smart_contract_response.CallSmartContractResponse;
-import org.qtum.wallet.model.gson.call_smart_contract_response.Item;
-import org.qtum.wallet.model.gson.token_balance.Balance;
-import org.qtum.wallet.model.gson.token_balance.TokenBalance;
-import org.qtum.wallet.ui.base.base_fragment.BaseFragment;
-import org.qtum.wallet.ui.fragment.send_fragment.SendInteractor;
-import org.qtum.wallet.ui.fragment.send_fragment.SendInteractorImpl;
-import org.qtum.wallet.ui.fragment.send_fragment.SendPresenterImpl;
-import org.qtum.wallet.ui.fragment.send_fragment.SendView;
+import com.tripi.wallet.model.Currency;
+import com.tripi.wallet.model.CurrencyToken;
+import com.tripi.wallet.model.contract.Token;
+import com.tripi.wallet.model.gson.FeePerKb;
+import com.tripi.wallet.model.gson.call_smart_contract_response.CallSmartContractResponse;
+import com.tripi.wallet.model.gson.call_smart_contract_response.Item;
+import com.tripi.wallet.model.gson.token_balance.Balance;
+import com.tripi.wallet.model.gson.token_balance.TokenBalance;
+import com.tripi.wallet.ui.base.base_fragment.BaseFragment;
+import com.tripi.wallet.ui.fragment.send_fragment.SendInteractor;
+import com.tripi.wallet.ui.fragment.send_fragment.SendInteractorImpl;
+import com.tripi.wallet.ui.fragment.send_fragment.SendPresenterImpl;
+import com.tripi.wallet.ui.fragment.send_fragment.SendView;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
@@ -46,7 +46,7 @@ import static org.mockito.Mockito.when;
 
 public class SendPresenterTest {
 
-    private static final String TEST_CURRENCY_VALUE = "Qtum";
+    private static final String TEST_CURRENCY_VALUE = "Tripi";
     private static final List<Token> TEST_LIST_TOKENS = Arrays.asList(new Token(true, ""), new Token(true, TEST_CURRENCY_VALUE));
     private static final List<Token> TEST_LIST_TOKENS_WITH_UNSUBSCRIBED_ITEMS = Arrays.asList(new Token(true), new Token(true), new Token(true), new Token(false));
     private static final List<Token> TEST_EMPTY_LIST_TOKENS = Collections.emptyList();
@@ -278,7 +278,7 @@ public class SendPresenterTest {
     private static final String TEST_AMOUNT_INPUT = "0.2";
     private static final String TEST_FEE_INPUT = "0.15";
     private static final String TEST_CURRENCY_NAME_WITHOUT_PREF = "name";
-    private static final String TEST_CURRENCY_NAME_WITH_PREF = "Qtum name";
+    private static final String TEST_CURRENCY_NAME_WITH_PREF = "Tripi name";
 
     @Test
     public void onPin_SendTx() {

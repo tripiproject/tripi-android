@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "943564282322",
+    "firebase_url": "https://tripiwallet.firebaseio.com",
+    "project_id": "tripiwallet",
+    "storage_bucket": "tripiwallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943564282322:android:7dcfe07d60908ede",
+        "android_client_info": {
+          "package_name": "com.tripi.wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943564282322-8417l4uqkr4rem5mpgl35lnp4i6ht81k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlf0zUo8XG5JeAw4IWLP9ZAT3ZVRiUWiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943564282322-8417l4uqkr4rem5mpgl35lnp4i6ht81k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

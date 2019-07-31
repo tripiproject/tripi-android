@@ -1,4 +1,4 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 
 import org.junit.After;
@@ -6,9 +6,9 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.ui.fragment.pin_fragment.PinInteractor;
-import org.qtum.wallet.ui.fragment.pin_fragment.PinPresenterImpl;
-import org.qtum.wallet.ui.fragment.pin_fragment.PinView;
+import com.tripi.wallet.ui.fragment.pin_fragment.PinInteractor;
+import com.tripi.wallet.ui.fragment.pin_fragment.PinPresenterImpl;
+import com.tripi.wallet.ui.fragment.pin_fragment.PinView;
 
 import javax.crypto.Cipher;
 
@@ -26,13 +26,13 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import static org.qtum.wallet.ui.fragment.pin_fragment.PinAction.AUTHENTICATION;
-import static org.qtum.wallet.ui.fragment.pin_fragment.PinAction.AUTHENTICATION_AND_SEND;
-import static org.qtum.wallet.ui.fragment.pin_fragment.PinAction.AUTHENTICATION_FOR_PASSPHRASE;
-import static org.qtum.wallet.ui.fragment.pin_fragment.PinAction.CHANGING;
-import static org.qtum.wallet.ui.fragment.pin_fragment.PinAction.CHECK_AUTHENTICATION;
-import static org.qtum.wallet.ui.fragment.pin_fragment.PinAction.CREATING;
-import static org.qtum.wallet.ui.fragment.pin_fragment.PinAction.IMPORTING;
+import static com.tripi.wallet.ui.fragment.pin_fragment.PinAction.AUTHENTICATION;
+import static com.tripi.wallet.ui.fragment.pin_fragment.PinAction.AUTHENTICATION_AND_SEND;
+import static com.tripi.wallet.ui.fragment.pin_fragment.PinAction.AUTHENTICATION_FOR_PASSPHRASE;
+import static com.tripi.wallet.ui.fragment.pin_fragment.PinAction.CHANGING;
+import static com.tripi.wallet.ui.fragment.pin_fragment.PinAction.CHECK_AUTHENTICATION;
+import static com.tripi.wallet.ui.fragment.pin_fragment.PinAction.CREATING;
+import static com.tripi.wallet.ui.fragment.pin_fragment.PinAction.IMPORTING;
 
 public class PinPresenterTest {
 

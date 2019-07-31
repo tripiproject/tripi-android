@@ -18,7 +18,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/title_color_light"
+            android:background="@color/accent_red_color"
             app:contentInsetStart="0dp"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
@@ -34,7 +34,7 @@
                 android:tint="@color/white"
                 app:srcCompat="@drawable/ic_back_indicator"/>
 
-            <org.qtum.wallet.utils.FontTextView
+            <com.tripi.wallet.utils.FontTextView
                 android:id="@+id/tv_toolbar_profile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -62,13 +62,13 @@
             android:paddingStart="10dp"
             android:paddingEnd="16dp"
             android:orientation="vertical"
-            android:background="@color/title_color_light"
+            android:background="@color/accent_red_color"
             android:id="@+id/available_balance_view"
             android:padding="4dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <org.qtum.wallet.utils.FontTextView
+            <com.tripi.wallet.utils.FontTextView
                 android:textColor="@color/white"
                 android:textSize="12sp"
                 android:padding="2dp"
@@ -79,7 +79,7 @@
                 android:gravity="center"
                 android:layout_height="wrap_content" />
 
-            <org.qtum.wallet.utils.FontTextView
+            <com.tripi.wallet.utils.FontTextView
                 android:textColor="@color/white"
                 android:textSize="12sp"
                 android:padding="2dp"

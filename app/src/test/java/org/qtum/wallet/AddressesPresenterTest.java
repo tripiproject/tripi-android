@@ -1,13 +1,13 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.bitcoinj.crypto.DeterministicKey;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.ui.fragment.addresses_fragment.AddressesInteractor;
-import org.qtum.wallet.ui.fragment.addresses_fragment.AddressesPresenterImpl;
-import org.qtum.wallet.ui.fragment.addresses_fragment.AddressesView;
+import com.tripi.wallet.ui.fragment.addresses_fragment.AddressesInteractor;
+import com.tripi.wallet.ui.fragment.addresses_fragment.AddressesPresenterImpl;
+import com.tripi.wallet.ui.fragment.addresses_fragment.AddressesView;
 
 import java.util.List;
 

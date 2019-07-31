@@ -1,12 +1,12 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.ui.fragment.touch_id_preference_fragment.TouchIDInterractor;
-import org.qtum.wallet.ui.fragment.touch_id_preference_fragment.TouchIDPreferencePresenterImpl;
-import org.qtum.wallet.ui.fragment.touch_id_preference_fragment.TouchIDPreferenceView;
+import com.tripi.wallet.ui.fragment.touch_id_preference_fragment.TouchIDInterractor;
+import com.tripi.wallet.ui.fragment.touch_id_preference_fragment.TouchIDPreferencePresenterImpl;
+import com.tripi.wallet.ui.fragment.touch_id_preference_fragment.TouchIDPreferenceView;
 
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;

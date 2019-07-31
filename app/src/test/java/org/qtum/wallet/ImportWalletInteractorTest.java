@@ -1,4 +1,4 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 
 import org.junit.After;
@@ -6,11 +6,11 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.ui.base.base_fragment.BaseFragment;
-import org.qtum.wallet.ui.fragment.import_wallet_fragment.ImportWalletInteractor;
-import org.qtum.wallet.ui.fragment.import_wallet_fragment.ImportWalletPresenterImpl;
-import org.qtum.wallet.ui.fragment.import_wallet_fragment.ImportWalletView;
-import org.qtum.wallet.ui.fragment.pin_fragment.PinAction;
+import com.tripi.wallet.ui.base.base_fragment.BaseFragment;
+import com.tripi.wallet.ui.fragment.import_wallet_fragment.ImportWalletInteractor;
+import com.tripi.wallet.ui.fragment.import_wallet_fragment.ImportWalletPresenterImpl;
+import com.tripi.wallet.ui.fragment.import_wallet_fragment.ImportWalletView;
+import com.tripi.wallet.ui.fragment.pin_fragment.PinAction;
 
 import rx.Observable;
 import rx.Scheduler;

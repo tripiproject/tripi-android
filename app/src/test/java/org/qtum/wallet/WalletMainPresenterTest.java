@@ -1,14 +1,14 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.model.contract.Token;
-import org.qtum.wallet.ui.fragment.wallet_main_fragment.WalletMainInteractor;
-import org.qtum.wallet.ui.fragment.wallet_main_fragment.WalletMainPresenterImpl;
-import org.qtum.wallet.ui.fragment.wallet_main_fragment.WalletMainView;
+import com.tripi.wallet.model.contract.Token;
+import com.tripi.wallet.ui.fragment.wallet_main_fragment.WalletMainInteractor;
+import com.tripi.wallet.ui.fragment.wallet_main_fragment.WalletMainPresenterImpl;
+import com.tripi.wallet.ui.fragment.wallet_main_fragment.WalletMainView;
 
 import java.util.Arrays;
 import java.util.List;

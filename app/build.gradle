@@ -7,7 +7,7 @@ buildscript {
         // can be updated quickly in response to Android tooling updates
         // We recommend changing it to the latest version from our changelog:
         // https://docs.fabric.io/android/changelog.html#fabric-gradle-plugin
-        classpath 'io.fabric.tools:gradle:1.25.1'
+        classpath 'io.fabric.tools:gradle:1.25.4'
     }
 }
 
@@ -24,10 +24,10 @@ repositories {
 android {
     signingConfigs {
         releaseConfig {
-            keyAlias 'QTUM'
-            keyPassword 'qtum-mobile'
-            storeFile file('/qtum-test.jks')
-            storePassword 'qtum-mobile'
+            keyAlias 'TRIPI'
+            keyPassword 'tripi-mobile'
+            storeFile file('/tripi-test.jks')
+            storePassword 'tripi-mobile'
         }
     }
     flavorDimensions 'default'
@@ -83,7 +83,7 @@ dependencies {
     testCompile 'org.assertj:assertj-core:2.8.0'
     compile 'com.android.support:support-v4:27.0.2'
     compile 'com.android.support:design:27.0.2'
-    compile 'com.github.designsters:android-fork-bitcoinj:1.0.11'
+    compile 'com.github.tripiproject:android-fork-bitcoinj:1.0.13'
     compile 'com.android.support:multidex:1.0.2'
     compile 'com.google.zxing:core:3.3.0'
     compile 'com.jakewharton:butterknife:8.8.1'

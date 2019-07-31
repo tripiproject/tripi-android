@@ -23,7 +23,7 @@
             app:contentInsetStart="0dp"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:background="@color/title_color_light"
+            android:background="@color/accent_red_color"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
             <LinearLayout
@@ -44,7 +44,7 @@
                     android:paddingTop="10dp"
                     app:srcCompat="@drawable/ic_back_indicator"/>
 
-                <org.qtum.wallet.utils.FontTextView
+                <com.tripi.wallet.utils.FontTextView
                     android:id="@+id/tv_toolbar_send"
                     android:layout_width="0dp"
                     android:layout_weight="1"
@@ -87,7 +87,7 @@
             android:id="@+id/balance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/title_color_light">
+            android:background="@color/accent_red_color">
 
             <include layout="@layout/lyt_appbar_wallet_placeholder_light" />
         </FrameLayout>
@@ -178,7 +178,7 @@
             android:paddingBottom="@dimen/activity_horizontal_margin"
             android:paddingTop="8dp">
 
-            <org.qtum.wallet.utils.FontButton
+            <com.tripi.wallet.utils.FontButton
                 android:id="@+id/bt_copy_wallet_address"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -198,7 +198,7 @@
                 android:textSize="@dimen/button_text"
                 app:typeface="@string/proximaNovaSemibold" />
 
-            <org.qtum.wallet.utils.FontButton
+            <com.tripi.wallet.utils.FontButton
                 android:id="@+id/bt_choose_another_address"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

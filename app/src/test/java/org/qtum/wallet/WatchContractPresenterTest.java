@@ -1,16 +1,16 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.model.ContractTemplate;
-import org.qtum.wallet.model.contract.Contract;
-import org.qtum.wallet.ui.base.base_fragment.BaseFragment;
-import org.qtum.wallet.ui.fragment.watch_contract_fragment.OnTemplateClickListener;
-import org.qtum.wallet.ui.fragment.watch_contract_fragment.WatchContractInteractor;
-import org.qtum.wallet.ui.fragment.watch_contract_fragment.WatchContractPresenterImpl;
-import org.qtum.wallet.ui.fragment.watch_contract_fragment.WatchContractView;
+import com.tripi.wallet.model.ContractTemplate;
+import com.tripi.wallet.model.contract.Contract;
+import com.tripi.wallet.ui.base.base_fragment.BaseFragment;
+import com.tripi.wallet.ui.fragment.watch_contract_fragment.OnTemplateClickListener;
+import com.tripi.wallet.ui.fragment.watch_contract_fragment.WatchContractInteractor;
+import com.tripi.wallet.ui.fragment.watch_contract_fragment.WatchContractPresenterImpl;
+import com.tripi.wallet.ui.fragment.watch_contract_fragment.WatchContractView;
 
 import java.util.Arrays;
 import java.util.List;

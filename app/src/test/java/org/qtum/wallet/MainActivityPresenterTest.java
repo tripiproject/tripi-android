@@ -1,4 +1,4 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 
 import org.junit.After;
@@ -6,13 +6,13 @@ import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.datastorage.listeners.LanguageChangeListener;
-import org.qtum.wallet.model.gson.DGPInfo;
-import org.qtum.wallet.model.gson.FeePerKb;
-import org.qtum.wallet.ui.activity.main_activity.MainActivityInteractor;
-import org.qtum.wallet.ui.activity.main_activity.MainActivityPresenterImpl;
-import org.qtum.wallet.ui.activity.main_activity.MainActivityView;
-import org.qtum.wallet.ui.fragment.pin_fragment.PinAction;
+import com.tripi.wallet.datastorage.listeners.LanguageChangeListener;
+import com.tripi.wallet.model.gson.DGPInfo;
+import com.tripi.wallet.model.gson.FeePerKb;
+import com.tripi.wallet.ui.activity.main_activity.MainActivityInteractor;
+import com.tripi.wallet.ui.activity.main_activity.MainActivityPresenterImpl;
+import com.tripi.wallet.ui.activity.main_activity.MainActivityView;
+import com.tripi.wallet.ui.fragment.pin_fragment.PinAction;
 
 import rx.Observable;
 import rx.Scheduler;
@@ -28,7 +28,7 @@ import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import static org.qtum.wallet.ui.fragment.pin_fragment.PinAction.CHECK_AUTHENTICATION;
+import static com.tripi.wallet.ui.fragment.pin_fragment.PinAction.CHECK_AUTHENTICATION;
 
 public class MainActivityPresenterTest {
 

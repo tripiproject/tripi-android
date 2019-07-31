@@ -1,14 +1,14 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.ui.activity.splash_activity.SplashActivityInteractor;
-import org.qtum.wallet.ui.activity.splash_activity.SplashActivityPresenter;
-import org.qtum.wallet.ui.activity.splash_activity.SplashActivityPresenterImpl;
-import org.qtum.wallet.ui.activity.splash_activity.SplashActivityView;
+import com.tripi.wallet.ui.activity.splash_activity.SplashActivityInteractor;
+import com.tripi.wallet.ui.activity.splash_activity.SplashActivityPresenter;
+import com.tripi.wallet.ui.activity.splash_activity.SplashActivityPresenterImpl;
+import com.tripi.wallet.ui.activity.splash_activity.SplashActivityView;
 
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;

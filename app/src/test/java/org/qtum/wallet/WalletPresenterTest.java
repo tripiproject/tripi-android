@@ -1,18 +1,17 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.model.gson.history.History;
-import org.qtum.wallet.model.gson.history.HistoryResponse;
-import org.qtum.wallet.model.gson.history.Vin;
-import org.qtum.wallet.model.gson.history.Vout;
-import org.qtum.wallet.ui.base.base_fragment.BaseFragment;
-import org.qtum.wallet.ui.fragment.wallet_fragment.WalletInteractor;
-import org.qtum.wallet.ui.fragment.wallet_fragment.WalletPresenterImpl;
-import org.qtum.wallet.ui.fragment.wallet_fragment.WalletView;
+import com.tripi.wallet.model.gson.history.History;
+import com.tripi.wallet.model.gson.history.HistoryResponse;
+import com.tripi.wallet.model.gson.history.Vin;
+import com.tripi.wallet.model.gson.history.Vout;
+import com.tripi.wallet.ui.fragment.wallet_fragment.WalletInteractor;
+import com.tripi.wallet.ui.fragment.wallet_fragment.WalletPresenterImpl;
+import com.tripi.wallet.ui.fragment.wallet_fragment.WalletView;
 
 import java.util.Arrays;
 import java.util.List;
@@ -28,7 +27,6 @@ import rx.schedulers.Schedulers;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyInt;
-import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;

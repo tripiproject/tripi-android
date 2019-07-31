@@ -1,13 +1,13 @@
-package org.qtum.wallet;
+package com.tripi.wallet;
 
 
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.qtum.wallet.ui.fragment.backup_wallet_fragment.BackUpWalletInteractor;
-import org.qtum.wallet.ui.fragment.backup_wallet_fragment.BackUpWalletPresenterImpl;
-import org.qtum.wallet.ui.fragment.backup_wallet_fragment.BackUpWalletView;
+import com.tripi.wallet.ui.fragment.backup_wallet_fragment.BackUpWalletInteractor;
+import com.tripi.wallet.ui.fragment.backup_wallet_fragment.BackUpWalletPresenterImpl;
+import com.tripi.wallet.ui.fragment.backup_wallet_fragment.BackUpWalletView;
 
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.times;
