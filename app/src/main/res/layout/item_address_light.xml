@@ -67,7 +67,7 @@
                 android:textColor="@color/bottom_nav_bar_text_color_light_alpha_60"
                 android:textSize="14sp"
                 app:typefaceAsset="@string/proximaNovaRegular"
-                tools:text="@string/tripi" />
+                tools:text="@string/trpc" />
 
         </RelativeLayout>
 

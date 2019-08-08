@@ -85,7 +85,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_gravity="end"
                         android:gravity="end"
-                        android:text="-7,450 TRIPI"
+                        android:text="-7,450 TRPC"
                         android:textColor="@color/bottom_nav_bar_text_color_light"
                         android:textSize="16sp"
                         app:typefaceAsset="@string/proximaNovaSemibold" />

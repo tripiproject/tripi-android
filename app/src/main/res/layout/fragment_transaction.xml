@@ -62,7 +62,7 @@
                         android:id="@+id/tv_symbol"
                         android:layout_gravity="bottom"
                         android:layout_marginStart="4dp"
-                        android:text="@string/tripi"
+                        android:text="@string/trpc"
                         android:textColor="@color/background"
                         android:textSize="30sp"
                         app:typefaceAsset="@string/simplonMonoMedium"/>
@@ -95,7 +95,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
-                        android:text="@string/tripi"
+                        android:text="@string/trpc"
                         android:textColor="@color/background"
                         app:typefaceAsset="@string/simplonMonoRegular"/>
 

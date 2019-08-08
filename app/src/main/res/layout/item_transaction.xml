@@ -89,7 +89,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/pref_text_color_selector"
                     android:layout_alignParentRight="true"
-                    android:text=" TRIPI"
+                    android:text=" TRPC"
                     android:textSize="16sp"
                     android:textStyle="bold"/>
 

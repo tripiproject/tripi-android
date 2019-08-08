@@ -13,6 +13,7 @@
     <string name="my_wallet">내 지갑</string>
     <string name="public_key">공개키</string>
     <string name="tripi">TRIPI</string>
+    <string name="trpc">TRPC</string>
     <string name="receive">받기</string>
     <string name="send">보내기</string>
     <string name="com.tripi.wallet.activity">Activity</string>
@@ -93,7 +94,7 @@
     <string name="are_you_sure">확인하셨습니까?</string>
     <string name="skip">건너뛰기</string>
     <string name="not_confirmed_balance">미확인 수량</string>
-    <string name="templates">Templates</string>
+    <string name="templates">템플릿</string>
     <string name="step_1_2">Step 1 of 2</string>
     <string name="step_2_2">Step 2 of 2</string>
     <string name="ok">OK</string>

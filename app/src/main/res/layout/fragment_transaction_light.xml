@@ -53,7 +53,7 @@
                         android:id="@+id/tv_symbol"
                         android:layout_gravity="bottom"
                         android:layout_marginBottom="2dp"
-                        android:text="@string/tripi"
+                        android:text="@string/trpc"
                         android:textColor="@color/white"
                         app:typefaceAsset="@string/proximaNovaBold"/>
                 </LinearLayout>
@@ -91,7 +91,7 @@
                         android:ellipsize="end"
                         android:gravity="center"
                         android:layout_marginLeft="8dp"
-                        android:text="@string/tripi"
+                        android:text="@string/trpc"
                         android:textColor="@color/white"
                         android:textSize="12sp"
                         app:typefaceAsset="@string/proximaNovaBold"/>

@@ -53,7 +53,7 @@
         android:layout_alignParentEnd="true"
         android:scaleType="center"
         android:textSize="12sp"
-        android:text="@string/tripi"
+        android:text="@string/trpc"
         android:textColor="@color/black"
         app:typefaceAsset="@string/proximaNovaLight"
         android:gravity="center"

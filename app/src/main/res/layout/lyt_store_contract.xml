@@ -93,7 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="@string/tripi"
+                android:text="@string/trpc"
                 android:layout_marginTop="3dp"
                 android:textColor="@color/background"
                 android:textSize="14sp"

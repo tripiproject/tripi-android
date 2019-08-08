@@ -13,6 +13,7 @@
     <string name="my_wallet">My Wallet</string>
     <string name="public_key">Public Key</string>
     <string name="tripi">TRIPI</string>
+    <string name="trpc">TRPC</string>
     <string name="receive">Receive</string>
     <string name="send">Send</string>
     <string name="com.tripi.wallet.activity">Activity</string>

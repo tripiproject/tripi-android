@@ -40,7 +40,7 @@
         android:maxLines="1"
         android:scaleType="center"
         android:textSize="12sp"
-        android:text="@string/tripi"
+        android:text="@string/trpc"
         android:textColor="@color/background"
         app:typefaceAsset="@string/proximaNovaRegular"
         android:gravity="center"

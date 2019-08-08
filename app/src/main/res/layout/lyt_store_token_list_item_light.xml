@@ -66,7 +66,7 @@
             android:maxLines="1"
             android:textSize="12sp"
             android:layout_marginTop="2dp"
-            android:text="@string/tripi"
+            android:text="@string/trpc"
             android:gravity="center_horizontal"
             android:alpha=".5"
             android:textColor="@color/background"

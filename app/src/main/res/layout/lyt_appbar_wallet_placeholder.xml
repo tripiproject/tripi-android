@@ -44,7 +44,7 @@
             <com.tripi.wallet.utils.FontTextView
                 android:id="@+id/tv_placeholder_symbol"
                 android:layout_marginLeft="4dp"
-                android:text="@string/tripi"
+                android:text="@string/trpc"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -94,7 +94,7 @@
             <com.tripi.wallet.utils.FontTextView
                 android:id="@+id/tv_placeholder_not_confirmed_symbol"
                 android:layout_marginLeft="4dp"
-                android:text="@string/tripi"
+                android:text="@string/trpc"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:gravity="center"

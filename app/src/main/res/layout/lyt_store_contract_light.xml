@@ -118,7 +118,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:gravity="center"
-                    android:text="@string/tripi"
+                    android:text="@string/trpc"
                     android:textColor="@color/white"
                     android:textSize="14sp"
                     app:typefaceAsset="@string/proximaNovaRegular" />

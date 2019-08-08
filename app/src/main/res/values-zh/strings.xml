@@ -9,6 +9,7 @@
     <string name="my_wallet">我的钱包</string>
     <string name="public_key">公钥</string>
     <string name="tripi">TRIPI</string>
+    <string name="trpc">TRPC</string>
     <string name="receive">接收</string>
     <string name="send">发送</string>
     <string name="com.tripi.wallet.activity">活动</string>
